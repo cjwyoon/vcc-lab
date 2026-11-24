@@ -6,47 +6,58 @@
  * 이메일은 공개 동의를 얻은 경우에만 입력하세요.
  */
 
+
 const labMembers = [
   {
     name: '윤영준',
     english: 'Yoon YoungJun',
-    role: 'Researcher',
-    field: '연구 및 디자인',
+    role: 'Digital Content Research',
+    field: 'Student Research Coordinator',
     image: 'images/members/member-yoon.jpeg',
+    email: ''
   },
   {
     name: '류예하',
     english: 'Ryu YeHa',
-    role: 'Researcher',
-    field: '연구 및 디자인',
+    role: 'Digital Content Research',
+    field: '',
     image: 'images/members/member-ryu.jpeg',
     email: ''
   },
   {
     name: '채민경',
     english: 'Chae MinKyung',
-    role: 'Researcher',
-    field: '연구 및 디자인',
+    role: 'Digital Content Research',
+    field: '',
     image: 'images/members/member-chae.jpeg',
     email: ''
   },
   {
     name: '카운시뚜',
     english: 'Kaung SiThu',
-    role: 'Researcher',
-    field: '연구 및 디자인',
+    role: 'Digital Content Research',
+    field: '',
     image: 'images/members/member-kaung.jpeg',
     email: ''
   },
   {
     name: '윤나디택',
     english: 'Yung NadiHtet',
-    role: 'Researcher',
-    field: '연구 및 디자인',
+    role: 'Digital Content Research',
+    field: '',
     image: 'images/members/member-yung.jpeg',
+    email: ''
+  },
+  {
+    name: '신규 구성원 이름',
+    english: 'English Name',
+    role: 'Digital Content Research',
+    field: '',
+    image: '',
     email: ''
   }
 ];
+
 
 
 const grid = document.getElementById('member-grid');
